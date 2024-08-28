@@ -13,4 +13,3 @@ This is a simple alarm clock web application where users can set multiple alarms
 1. Set the alarm time by entering hours, minutes, seconds, and selecting AM/PM.
 2. Click on the "Set Alarm" button.
 3. The set alarms will be listed below. You can delete an alarm by clicking the trash icon.
-
