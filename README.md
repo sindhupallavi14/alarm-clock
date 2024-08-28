@@ -14,4 +14,5 @@ This is a simple alarm clock web application where users can set multiple alarms
 2. Click on the "Set Alarm" button.
 3. The set alarms will be listed below. You can delete an alarm by clicking the trash icon.
 
-
+## Live Demo
+Check out the live demo [here](https://sindhupallavi14.github.io/Alarm-Clock/).
