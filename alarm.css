@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-image: url(https://www.visualsstock.com/details_watermark.php?filename=52684);
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+    
+}
+
+h1{
+   
+        font-size: 3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background: linear-gradient(to right, #af1313, #d75889,#a89494);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* container */
+.container {
+    margin-top: 8%;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow:0px 0px 2px 3px rgba(229, 179, 206, 0.4);
+}
+
+/* current time */
+.alarm
+{
+    font-size: 3em;
+    margin: 40px ;
+    box-shadow:0px 0px 6px 3px rgba(158, 128, 144, 0.4);
+    width: 80%;
+
+}
+
+/* set alarm button */
+#set-alarm
+{
+    cursor: pointer;
+    background-color: rgba(150, 95, 124, 0.4);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+/* input fields */
+.time input,
+.time select{
+    width: 70px;	
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+	-moz-appearance: textfield;
+	appearance: textfield;
+    background-color: black;
+    color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+
+/* alarm list */
+#alarms-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#alarms-list li {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#alarms-list li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5c5c;
+    color: white;
+    cursor: pointer;
+}
