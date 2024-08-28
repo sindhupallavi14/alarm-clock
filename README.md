@@ -1,4 +1,3 @@
-# alarm-clock
 # Alarm Clock Project
 
 This is a simple alarm clock web application where users can set multiple alarms and be notified when the alarm rings.
